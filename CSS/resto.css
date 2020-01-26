@@ -1,0 +1,156 @@
+/* header */
+/* background */
+/* background */
+h1 {
+  text-align: center;
+}
+/* header */
+
+/* date */
+.datepicker {
+  height: 20%;
+  width: 45%;
+  margin-top: 5%;
+  border-radius: 25px 0 25px 0;
+  padding-top: 3%;
+  background-color: #f2f2f2;
+}
+
+.choice {
+  padding-top: 3px;
+}
+
+.selectmenu {
+  display: flex;
+  flex-direction: row-reverse;
+}
+p.left {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  float: left;
+  padding-left: 3%;
+}
+
+form {
+  padding-left: 10%;
+}
+
+select#chambre {
+  padding-left: 5%;
+  margin-left: 10%;
+}
+
+/* date */
+
+/* RESTORANT MENU */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 8em;
+  height: 3em;
+  border-radius: 0 5px 0 10px;
+  text-align: center;
+}
+.dropdown button {
+  margin-left: 15px;
+}
+.dropdown {
+  display: flex;
+}
+.dropdown:hover .dropbtn {
+  background-color: #00405c;
+}
+
+#image-menu-one,
+#image-menu-two,
+#image-menu-three,
+#image-menu-four,
+#image-menu-five {
+  display: none;
+}
+/* RESTORANT MENU */
+
+/* wrappe-photo-resto */
+.wrapper {
+  width: 100%;
+}
+/* wrappe-photo-resto */
+/* MAIN */
+main {
+  margin-bottom: 1.2em;
+}
+.chambre-multi {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+#chambre-h2-p {
+  margin-left: 1.5em;
+  color: #29bfff;
+  text-align: justify;
+}
+/* MAIN */
+/* ------------ MENU ------------ */
+#navbarNav {
+  font-size: 1.2em;
+}
+#navbarNav li {
+  padding-left: 1em;
+}
+
+/* ------------------------------------------------------ FOOTER ------------------------------------------------- */
+
+/* ----------- MENU FOOTER ----- */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1.6em 0 1.6em 0;
+}
+#footer {
+  display: inline-block;
+  background-color: #232323;
+  color: #fff;
+}
+footer .footer-ul {
+  cursor: pointer;
+  padding: 12px;
+  font-size: 20px;
+  color: #f29727;
+  font-family: "Maven Pro";
+  width: 15em;
+  list-style-type: none;
+}
+.list-unstyled li a:hover {
+  color: white;
+}
+
+footer div img.logoresou {
+  width: 10%;
+  cursor: pointer;
+}
+#frondBlanche {
+  width: 100%;
+  height: 34em;
+  background-color: #fff;
+}
+iframe {
+  width: 100%;
+  height: 16em;
+}
+/* main */
+#aboutUs,
+.text-light {
+  text-align: center;
+}
+#aboutUs-p {
+  font-size: 18px;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+/* BODY  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+header.img-fluid w-70 {
+  width: 100%;
+  position: fixed;
+}
+/* -----------------HEADER --------------- */
+.background-accueil {
+  background-image: url(/image/frond-site-hotel.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container .presentation {
+  width: 100%;
+  font-size: 1.5em;
+}
+/* ------------ MENU ------------ */
+#navbarNav {
+  font-size: 1.2em;
+}
+#navbarNav li {
+  padding-left: 1em;
+}
+/* section */
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.tous-les-actus {
+  text-align: center;
+  margin: 25px;
+}
+.actus-button {
+  width: 300px;
+}
+.tous-les-actus img {
+  border-radius: 25px 0 0 0;
+  width: 110%;
+}
+.tous-les-actus img:hover {
+  border: 5px solid#296fff;
+}
+/* section */
+/* ----------- MENU FOOTER ----- */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1.6em 0 1.6em 0;
+}
+#footer {
+  display: inline-block;
+  background-color: #232323;
+  color: #fff;
+}
+footer .footer-ul {
+  cursor: pointer;
+  padding: 12px;
+  font-size: 20px;
+  color: #f29727;
+  font-family: "Maven Pro";
+  width: 15em;
+  list-style-type: none;
+}
+.list-unstyled li a:hover {
+  color: white;
+}
+footer div img.logoresou {
+  width: 10%;
+  cursor: pointer;
+}
+#frondBlanche {
+  width: 100%;
+  height: 34em;
+  background-color: #fff;
+}
+iframe {
+  width: 100%;
+  height: 16em;
+}
+/* main */
+#boutUs,
+#aboutUs,
+.text-light {
+  text-align: center;
+}
+#aboutUs-p {
+  font-size: 18px;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+/* main */

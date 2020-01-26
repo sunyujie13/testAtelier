@@ -1,0 +1,163 @@
+/* BODY  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+header.img-fluid w-70 {
+  width: 100%;
+  position: fixed;
+}
+/* header */
+/* background */
+.background-accueil {
+  background-image: url(/image/FROND-chambre.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/* background */
+h1 {
+  text-align: center;
+}
+/* grandoffer */
+#grandoffer {
+  width: auto;
+}
+/* grandoffer */
+/* header */
+
+/* date */
+/* datepicker */
+.datepicker {
+  height: 23%;
+  width: 45%;
+  margin-top: 2%;
+  margin-left: 32%;
+  border-radius: 1.2em 0 1.2em 0;
+  padding-top: 2%;
+  background-color: #f2f2f2;
+}
+.choice {
+  padding-top: 3px;
+}
+.selectmenu {
+  display: flex;
+  flex-direction: row-reverse;
+}
+p.left {
+  display: flex;
+  flex-direction: row;
+}
+.flex {
+  float: left;
+  padding-left: 9%;
+  padding-bottom: 3%;
+}
+form {
+  padding-left: 10%;
+}
+.btn-primary {
+  width: 6.2em;
+  height: 3em;
+  color: #fff;
+  padding-bottom: 3px;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+/* date */
+
+/* offer */
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.tous-les-actus {
+  text-align: center;
+}
+.actus-button {
+  width: 15em;
+}
+.tous-les-actus img {
+  border-radius: 25px 0 0 0;
+  width: 70%;
+}
+.tous-les-actus img:hover {
+  border: 5px solid#3a0118;
+}
+
+/* MAIN */
+main {
+  margin-bottom: 1.2em;
+}
+.chambre-multi {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+#chambre-h2-p {
+  margin-left: 1.5em;
+  color: #29bfff;
+  text-align: justify;
+}
+h4 {
+  margin: auto;
+  width: 80%;
+}
+/* MAIN */
+
+/* ------------ MENU ------------ */
+#navbarNav {
+  font-size: 1.2em;
+}
+#navbarNav li {
+  padding-left: 1em;
+}
+/*----- FOOTER ---- */
+
+/* ----------- MENU FOOTER ----- */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1.6em 0 1.6em 0;
+}
+#footer {
+  display: inline-block;
+  background-color: #232323;
+  color: #fff;
+}
+footer .footer-ul {
+  cursor: pointer;
+  padding: 12px;
+  font-size: 20px;
+  color: #f29727;
+  font-family: "Maven Pro";
+  width: 15em;
+  list-style-type: none;
+}
+.list-unstyled li a:hover {
+  color: white;
+}
+
+footer div img.logoresou {
+  width: 10%;
+  cursor: pointer;
+}
+#frondBlanche {
+  width: 100%;
+  height: 34em;
+  background-color: #fff;
+}
+iframe {
+  width: 100%;
+  height: 16em;
+}

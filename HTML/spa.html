@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Evaluation | Stéphanie & Yuji</title>
-  
-  <!------------ LINKS html ------------>
+
+        <!------------ LINKS HTML ------------>
+
   <link rel="stylesheet" href="/index.html">
   <link rel="stylesheet" href="/HTML/hotel.html">
   <link rel="stylesheet" href="/HTML/chambre.html">
@@ -19,7 +20,8 @@
 
   <!------------ LINKS CSS ------------>
 
-  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/CSS/spa.css">
+
   <!------------ LINKS BOOTSTRAP ------------>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -29,32 +31,33 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
+    </script>
 
   <!------------ LINKS JQUERY ------------>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
+      
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
 
 </head>
 
 <body>
 
   <!------------ HEADER ------------>
+
   <header>
-    <!-- LOGO -->
-    <div class="container-fluid background-accueil">
+    <div class="container-fluid">
 
       <div class="col-lg-12">
         <figure class="logo col-lg-2 col-md-12 col-xs-12">
@@ -94,108 +97,132 @@
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="chercher" placeholder="Chercher" aria-label="Chercher">
+                <input class="form-control mr-sm-2" type="Chercher" placeholder="Chercher" aria-label="Chercher">
               </form>
             </div>
           </nav>
         </div>
       </div>
-
-      <div class="container">
-        <div class="col-sm-12 col-lg-12 col-xs-12">
-          <h1 id="title">S&Y HOTEL</h1>
-          <br>
-          <p class="presentation col-lg-8">Dormez, mangez, travaillez et profitez de nos chambres au design unique au
-            sein d'un magnifique bâtiment datant du 18ème siècle, à The S&Y Hotel, au cœur de Paris</p>
-          <p class="presentation col-lg-8"> Entouré de boutiques et de restaurants cet hôtel chic du 2e arrondissement
-            est aménagé dans une maison mitoyenne datant du XVIIIe siècle. </p>
-        </div>
-      </div>
-      <!-- date -->
-      <div class="col-sm-12 col-lg-12 col-xs-12">
-        <div class="container datepicker">
-          <div class="row">
-            <div class="flex">
-              <label for="Depart">Départ</label>
-              <p class="left"><input type="text" id="datepickerDepart"></p>
-            </div>
-
-            <div class="flex">
-              <label for="Arrivée">Arrivée</label>
-              <p class="left"><input type="text" id="datepickerArrivee"></p>
-            </div>
-            <div class="choice">
-              <form action="#">
-                <fieldset>
-                  <label for="chambre">Type de chambre</label>
-                  <select name="chambre" id="chambre">
-                    <option>Classique</option>
-                    <option>Confort</option>
-                    <option selected="selected">Deluxe</option>
-                    <option>Suite</option>
-                  </select>
-                </fieldset>
-              </form>
-            </div>
-            <button type="button" class="btn btn-outline-dark"><a href="https://www.google.fr/"
-                alt="https://www.google.fr/" target="_blank" style="color: aliceblue;">Reserver</a></button>
-          </div>
-        </div>
-      </div>
-
-      <!-- date -->
-    </div>
   </header>
 
+  <!------------ CARDS SOIN ------------>
 
-  <section>
+  <div class="container">
 
-    <div style="width: auto; height: 30px; background-color: white;"></div>
+    <div class="row mb-5 ml-5">
+      <h1 class="text-center">Notre Spa</h1>
+    </div>
+  </div>
 
-    <!--slider-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="/image/slider-04.jpg" alt="Los Angeles">
-        </div>
+  <div class="row d-flex justify-content-around">
 
-        <div class="item">
-          <img src="/image/slider-03.jpg" alt="Chicago">
-        </div>
+    <div class="card col-12 col-md-2 text-center mb-5">
+      <img src="/image/un.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Soin détente</h5>
+        <p class="card-text">Massage Thaïlandais aux huiles essentielles avec draps chauffants</p>
+      </div>
+    </div>
 
-        <div class="item">
-          <img src="/image/slider-02.jpg" alt="New York">
-        </div>
+    <div class="card col-12 col-md-2 mb-5">
+      <img src="/image/deux.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Soin Découverte</h5>
+        <p class="card-text">Massage du corps Thaïlandais aux huiles chaudes</p>
+      </div>
+    </div>
+
+    <div class="card col-12 col-md-2 mb-5">
+      <img src="/image/trois.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Soin Relaxant</h5>
+        <p class="card-text">Rituel "Jouvence" : Hammam, réflexologie plantaire et massage aux huiles chaudes</p>
+      </div>
+    </div>
+
+    <div class="card col-12 col-md-2 mb-5">
+      <img src="/image/quatre.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center font-weight-bold">Soin Plaisir</h5>
+        <p class="card-text">Gommage et massage du corps aux huiles chaudes 100% bio</p>
+      </div>
+    </div>
+
+    <div class="card col-12 col-md-2 mb-5">
+      <img src="/image/cinq.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Soin Evasion</h5>
+        <p class="card-text">Rituel "Tanah Lot" : Hammam, massage balinais, déjeuner ou dîner indonésien</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row bm-5">
+    <button type="button" class="btn btn-dark btn-lg mx-auto">Reserver</button>
+  </div>
+
+  <!------------ CONTAINER PRICE ------------>
+
+  <div class="container-fluid mt-5">
+    <div class="row">
+
+      <figure class="col-12 col-md-6">
+        <img class="illustration-spa col-md-12" src="/image/neuf.jpg" alt="S&Y HOTEL" title="page home"
+          class="img-fluid">
+      </figure>
+
+      <div class="col-12 col-md-6">
+        <h1 class="title-spa text-center col-md-12">Le Spa</h1>
+        <p class="text-justify col-md-10 offset-md-1">Son hammam somptueux, vaste et intimiste, vous ouvre l'accès à un
+          univers féerique,
+          aux fragrances d'encens et de jasmin. Le décor du Spa Asian contribue à votre évasion par son
+          alliance de bois bruts sombres et de statues de Bouddha. Les lumières tamisées et la douce
+          musique zen apaisent votre esprit et vous font voyager à travers la Thaïlande.</p>
+
+        <figure>
+          <img class="prix col-md-12 mt-5" src="/image/huit.jpg " alt="S&Y HOTEL" title="page home"
+            class="">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!------------ INPUT RESERVATION ------------>
+
+  <div class="container reservation mt-5 pb-5 ">
+
+    <h1 class="text-center text-secondary mb-5">Prendre Rendez-vous</h1>
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="input-group input col-12 col-md-4 mx-auto">
+        <select class="custom-select mx-auto" id="soins">
+          <option selected>Choississez votre soin</option>
+          <option value="1">Soin Détente</option>
+          <option value="2">Soin Découverte</option>
+          <option value="3">Soin Relaxant</option>
+          <option value="4">Soin Plaisir</option>
+          <option value="5">Soin Evasion</option>
+        </select>
       </div>
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <p class="left"><input type="text" id="datepickerArrivee" placeholder="Choississez une date"></p>
+
+
+      <button type="button" class="btn btn-dark btn-lg mx-auto" id="reserver">Reserver</button>
+
     </div>
-    <!-- Carousel menu -->
 
-    <!--slider-->
-  </section>
+  </div>
 
-  <!------------ MAIN ------------>
+  <!------------  FOOTNOTE ------------>
 
   <div style="width: auto; height: 50px; background-color: white;"></div>
+
   <hr>
   <h1 id="aboutUs">A PROPOS</h1>
   <hr>
+
   <p id="aboutUs-p">La nature autour de nous inspire envie et respect. Dans nos choix au quotidien nous faisons notre
     possible pour préserver au mieux la nature qui nous entoure, et nous vous invitons à vous y associer.Dans les années
     30, naissance de l’Hôtel de la Mer sous l’impulsion d’Alexandre Baley, dans
@@ -203,14 +230,17 @@
     pour la Régie Renault. Il devient ensuite Les Chardons Bleus, pour accueillir des classes de mer et des réceptions.
   </p>
   <br>
+
   <main>
     <div class="container bg-secondary">
-      <h1 class="text-light"><a class="text-decoration-none text-center text-light" href="/HTML/chambre.html">Notre Hôtel</a></h1>
+      <h1 class="text-center"><a class="text-light text-decoration-none" href="/HTML/actus.html">Notre actualité</a></h1>
     </div>
   </main>
+
   <div style="width: auto; height: 50px; background-color: white;"></div>
 
-  <!-- Footer -->
+  <!------------  FOOTER ------------>
+
   <footer class="page-footer font-small stylish-color-dark pt-4" id="footer">
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -220,14 +250,16 @@
         <div class="col-md-4 mx-auto">
           <!-- Content -->
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">NOTRE HISTOIRE</h5>
-          <p>S&Y Hôtel, Paris, hôtel design ouvert en 2017 dans le 2ème arrondissement de Paris, dans le quartier du Sentier.</p>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
           <div>
-            <img src="image/facebook.png" alt="https://www.facebook.com/" class="logoresou">
-            <img src="image/ins.png" alt="https://www.facebook.com/" class="logoresou">
-            <img src="image/linkedin.png" alt="https://www.facebook.com/" class="logoresou">
-            <img src="image/pinterest.png" alt="https://www.facebook.com/" class="logoresou">
-            <img src="image/twiter.png" alt="https://www.facebook.com/" class="logoresou">
-            <img src="image/youtube.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/facebook.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/ins.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/linkedin.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/pinterest.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/twiter.png" alt="https://www.facebook.com/" class="logoresou">
+            <img src="/image/youtube.png" alt="https://www.facebook.com/" class="logoresou">
           </div>
         </div>
 
@@ -257,7 +289,7 @@
         <!-- Grid column -->
         <div class="col-md-2 mx-auto">
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SERVICES</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SERVICE</h5>
           <ul class="list-unstyled">
             <li>
               <a href="#!">Des hébergements uniques</a>
@@ -303,7 +335,7 @@
     <!-- Call to action -->
     <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <h5 class="mb-1">S'enregistrer gratuitement</h5>
+        <h5 class="mb-1">S'enregister gratuitement</h5>
       </li>
       <li class="list-inline-item">
         <a href="/HTML/contact.html" class="btn btn-danger btn-rounded">S'inscrire!</a>
@@ -312,16 +344,16 @@
     <!-- Call to action -->
     <!-- maps -->
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6401922469654!2d2.299889716052988!3d48.86507117928824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Avenue%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1579776228875!5m2!1sfr!2sfr"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6401922469686!2d2.2998897156746234!3d48.865071179288186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Avenue%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1580041672402!5m2!1sfr!2sfr"
       width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   </footer>
-  <!-- Footer -->
+
 
   <!------------ SCRIPT JS ------------>
   <script src="/app.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-</body>
+  </div>
 
 </html>
