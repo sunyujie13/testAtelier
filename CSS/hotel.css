@@ -22,8 +22,12 @@ header {
 }
 #navbarNav li {
   padding-left: 1em;
+  z-index: 500;
 }
 
+figure a img{
+  z-index: 500;
+}
 .nav-link {
   font-weight: bold;
 }
@@ -39,6 +43,7 @@ header {
   background-size: 100%;
   width: 100%;
   height: 100px;
+  z-index: -500;
 }
 
 .video {
